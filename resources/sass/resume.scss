@@ -1,4 +1,11 @@
-@import "variables.scss";
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "resume-variables.scss";
 @import "mixins.scss";
 @import "global.scss";
 @import "nav.scss";
