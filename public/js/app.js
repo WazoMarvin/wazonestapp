@@ -49509,16 +49509,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/watch.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/watch.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***********************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/agency.scss ./resources/sass/resume.scss ./resources/sass/app.scss ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/agency.scss ./resources/sass/resume.scss ./resources/sass/watch.scss ./resources/sass/app.scss ***!
+  \***************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\xampp\htdocs\marvin\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\xampp\htdocs\marvin\resources\sass\agency.scss */"./resources/sass/agency.scss");
 __webpack_require__(/*! C:\xampp\htdocs\marvin\resources\sass\resume.scss */"./resources/sass/resume.scss");
+__webpack_require__(/*! C:\xampp\htdocs\marvin\resources\sass\watch.scss */"./resources/sass/watch.scss");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\marvin\resources\sass\app.scss */"./resources/sass/app.scss");
 
 

@@ -12,10 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/about/marvin');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about/marvin','HomeController@about')->name('about-marvin');
+
+Route::get('/boots-watch','HomeController@bootsWatch');

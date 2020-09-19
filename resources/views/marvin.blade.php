@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>Wazonest - Portifolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,14 +45,17 @@
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#personal">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
@@ -130,6 +133,37 @@
 
     <hr class="m-0">
 
+
+    
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="personal">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+          In addtion to the good number of projects i worked on with my employer, i have also worked on some few projects during my free time when am not at work. Below is the list
+        
+          
+          <h4 class=" mt-5">1. School Website</h4>
+          <p>This is a template of the website i built from scratch for a client as a freelancer. its a nicely designed website and it showcases my creative and desing skills.</p>
+           <a href="http://marvin.school.wazonest.com">http://marvin.school.wazonest.com</a>
+
+       
+           <h4 class=" mt-4">2. School Website Admin Portal</h4>
+           <p> This is the admin portal which i designed to manage the content of the school website. this is meant to show case my skills as a fullstack developer </p>
+            <a href="http://marvin.school.wazonest.com/admin">http://marvin.school.wazonest.com/admin</a>
+ 
+            <h4 class=" mt-4">2. Yoduuka Project</h4>
+            <p>Yoduuka is a shop management system which helps shops manage their daily, weekly and monthly invetory </p>
+             <a href="http://yoduuka.wazonest.com/admin">http://yoduuka.wazonest.com/admin</a>
+  
+ 
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
@@ -190,26 +224,48 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul style=" list-style:none" class=" dev-icons">
           <li class="">
-            <i class="fab fa-html5"></i> HTML 5
-          </li>
-          <li class="">
-            <i class="fab fa-css3-alt"></i> CSS 3
-          </li>
-          <li class="">
-            <i class="fab fa-js-square"></i> JavaScript
-          </li>
-          <li class="">
             <i class="fab fa-laravel"></i> Php Laravel
           </li>
+          
           <li class="">
             <i class="fab fa-vuejs"></i> Vue Js
           </li>
           <li class="">
             <i class="fab fa-bootstrap"></i> Bootstrap
           </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i> PHP
+          </li>
+          <li class="">
+            <i class="fab fa-js-square"></i> JavaScript
+          </li>
+          <li class="">
+            <i class="fab fa-js-square"></i> JQuery
+          </li>
+          <li class="">
+            <i class="fab fa-linux"></i> Lunux Servers
+          </li>
+          <li class="">
+            <i class="fab fa-windows"></i> Windows Servers
+          </li>
+        
           <li class="">
             <i class="fab fa-sass"></i> Sass
           </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i> NPM
+          </li>
+        
+      
+          <li class="">
+            <i class="fab fa-html5"></i> HTML 5
+          </li>
+          <li class="">
+            <i class="fab fa-css3-alt"></i> CSS 3
+          </li>
+          
+        
+         
           <li class="">
             <i class="fab fa-less"></i> Less
           </li>
@@ -220,9 +276,7 @@
             <i class="fab fa-gulp"></i>
           </li> --}}
 
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i> NPM
-          </li>
+          
         </ul>
 
         <div class="subheading mb-3">Workflow</div>
@@ -245,7 +299,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    {{-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
         <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
@@ -253,7 +307,7 @@
       </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0"> --}}
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
@@ -261,30 +315,24 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
+              Bachelor of Scince in information Technology - Second Class Upper
+            </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+            Certificate of Appreciation as Bible Study Secretary</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
+            Certificate of Excellence Innovation Contest 2018
+            </li>
+
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              4<sup>th</sup>
+              Certificate of Excellence Innovation Contest
+              </li>
+          
+           
         </ul>
       </div>
     </section>

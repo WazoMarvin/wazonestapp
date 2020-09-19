@@ -29,4 +29,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+    public function bootsWatch(){
+        return view('boots_view');
+    }
 }
