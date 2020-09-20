@@ -138,7 +138,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="personal">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
-          In addtion to the good number of projects i worked on with my employer, i have also worked on some few projects during my free time when am not at work. Below is the list
+          In addtion to a good number of projects i have worked on with my employer, i have also worked on some few projects during my free time when am not at work. Below is the list
         
           
           <h4 class=" mt-5">1. School Website</h4>
@@ -150,7 +150,7 @@
            <p> This is the admin portal which i designed to manage the content of the school website. this is meant to show case my skills as a fullstack developer </p>
             <a href="http://marvin.school.wazonest.com/admin">http://marvin.school.wazonest.com/admin</a>
  
-            <h4 class=" mt-4">2. Yoduuka Project</h4>
+            <h4 class=" mt-4">3. Yoduuka Project</h4>
             <p>Yoduuka is a shop management system which helps shops manage their daily, weekly and monthly invetory </p>
              <a href="http://yoduuka.wazonest.com/admin">http://yoduuka.wazonest.com/admin</a>
   
