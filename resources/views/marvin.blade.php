@@ -74,7 +74,7 @@
           <a href="mailto:name@email.com">kisekamarvin@gmail.com</a>
         </div>
         <p class="lead mb-5">
-            I am a principle driven person who places high value to christian practices and teachings. I believe in hard work, friendship and family with hopes and dreams of adding value to the lives that am able to reach through love, teamwork and innovation
+            I am a principle driven person who places high value on christian practices and teachings. I believe in hard work, friendship and family with hopes and dreams of adding value to the lives that am able to reach through love, teamwork and innovation
         </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/marvin-kiseka-62388a150/">
