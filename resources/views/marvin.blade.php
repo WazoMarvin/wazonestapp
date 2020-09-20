@@ -143,16 +143,16 @@
           
           <h4 class=" mt-5">1. School Website</h4>
           <p>This is a template of the website i built from scratch for a client as a freelancer. its a nicely designed website and it showcases my creative and desing skills.</p>
-           <a href="http://marvin.school.wazonest.com">http://marvin.school.wazonest.com</a>
+           <a href="https://marvin.school.wazonest.com">http://marvin.school.wazonest.com</a>
 
        
            <h4 class=" mt-4">2. School Website Admin Portal</h4>
            <p> This is the admin portal which i designed to manage the content of the school website. this is meant to show case my skills as a fullstack developer </p>
-            <a href="http://marvin.school.wazonest.com/admin">http://marvin.school.wazonest.com/admin</a>
+            <a href="https://marvin.school.wazonest.com/admin">http://marvin.school.wazonest.com/admin</a>
  
             <h4 class=" mt-4">3. Yoduuka Project</h4>
             <p>Yoduuka is a shop management system which helps shops manage their daily, weekly and monthly invetory </p>
-             <a href="http://yoduuka.wazonest.com/admin">http://yoduuka.wazonest.com/admin</a>
+             <a href="https://yoduuka.wazonest.com">http://yoduuka.wazonest.com</a>
   
  
 
