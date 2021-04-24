@@ -8,6 +8,13 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+
+try {
+    window.intlTelInput =require('intl-tel-input/build/js/intlTelInput');
+} catch (error) {
+
+}
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -20,6 +27,9 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component("phone-input",require("./components/Phone").default);
+Vue.component("nice-alert",require("./components/NiceAlert").default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -29,4 +39,25 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+
+    data:{
+        sideBar:true,
+    },
+    methods: {
+        showHideSideBar(){
+            if (this.sideBar ==true) {
+                this.sideBar =false;
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }else{
+                this.sideBar =true;
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";      
+            }
+        },
+
+        newUser(){
+            $("#addUser").modal("show");
+        }
+    },
 });

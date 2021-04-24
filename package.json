@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "bootswatch": "^4.3.1"
+        "bootswatch": "^4.3.1",
+        "intl-tel-input": "^17.0.12",
+        "sweetalert2": "^10.16.0"
     }
 }

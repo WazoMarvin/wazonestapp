@@ -36,4 +36,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    protected $appends =[
+        'user_role'
+    ];
+    
+    public function getUserRoleAttribute(){
+        $user_role = RoleUser::where('user_id',$this->id)->first()->role_id;
+        return Role::find($user_role)->role_name;
+    }
 }

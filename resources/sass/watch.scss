@@ -1,8 +1,123 @@
+// @import "../../../node_modules/intl-tel-input/build/css/intlTelInput";
+@import "~intl-tel-input/build/css/intlTelInput";
+.iti__flag {background-image: url("../../../node_modules/intl-tel-input/build/img/flags.png");}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../../../node_modules/intl-tel-input/build/img/flags@2x.png");}
+}
+
+.iti { width: 100%; }
+
 @import "~bootswatch/dist/pulse/variables";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/pulse/bootswatch";
 
+@import "utils.scss";
 
 body{
-    background: #f4f5f7;
+    background: #fff;
 }
+.phone-inp{
+    padding-left: 12% !important;
+}
+
+#login-body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#f81037), to(#33080a)) fixed;
+}
+
+.mt-7-cus{
+    margin-top: 7.5rem !important;
+}
+
+
+    .sidenav {
+        // margin-top: 60px;
+        height: 100%;
+        // width: 0;
+        // position: absolute !important;
+        // z-index: 1;
+        // top: 0;
+        // left: 0;
+        // background-color: #111;
+        // overflow-x: hidden;
+        // transition: 0.5s;
+
+
+        box-sizing: border-box;
+        width: 250px;
+        padding-top: 60px;
+        position: fixed;
+        left: 0;
+        // transition: left .25s cubic-bezier(.4,0,.2,1);
+                transition: 0.5s;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #fafafa;
+        -webkit-touch-callout: none!important;
+        -webkit-user-select: none!important;
+        -moz-user-select: none!important;
+        -ms-user-select: none!important;
+        user-select: none!important;
+
+
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #5e5d5d;
+        display: block;
+        transition: 0.3s;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+      
+      .sidenav a:hover {
+        color: #333;
+        background-color: #eee;
+        border-radius: 5px;
+      }
+      .sidenav a.active {
+        color: #333;
+        background-color: #eee;
+        border-radius: 5px;
+        font-weight: 400;
+      }
+      
+     
+      
+      #main {
+        transition: margin-left .5s;
+        // padding: 16px;
+        margin-left: 250px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+
+    .table-sm, .table thead th {
+        font-size: .6rem !important;
+    }
+
+    .table-sm, .table tbody td {
+        font-size: .8rem !important;
+    }
+
+    .table th {
+        padding: .7rem !important; 
+        font-family: sans-serif !important;
+    }
+
+    .w-full{
+        width: 100% !important;
+    }
+
+    .form-control{
+        // padding-left: 1rem !important;
+    }
+    .text-lgn{
+        color: #ccc !important;
+    }
